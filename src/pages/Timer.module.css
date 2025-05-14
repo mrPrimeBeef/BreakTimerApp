@@ -1,0 +1,139 @@
+/* Timer.module.css */
+.mainContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
+}
+
+/* Header section */
+.header {
+  display: grid;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Timer display section */
+.timerDisplay {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 15px;
+}
+
+.remainingTime {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.cupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffeecup {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Control section */
+.controlSection {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 15px;
+  padding: 15px;
+}
+
+.playControls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #f9f9f9;
+}
+
+.timeInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+}
+
+.timeInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.timeInput label {
+  font-size: 26px;
+  
+}
+
+.timeInput input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Preset buttons section */
+.presetButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.presetBtn {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.presetBtn:hover {
+  background-color: #f9f9f9;
+}
